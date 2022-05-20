@@ -1,6 +1,8 @@
 {
   "pages": [
-    "pages/index/index"
+    "pages/hot/hot",
+    "pages/video/video",
+    "pages/my/my"
   ],
   "subPackages": [],
   "window": {
@@ -8,6 +10,30 @@
     "navigationBarTitleText": "uni-app",
     "navigationBarBackgroundColor": "#F8F8F8",
     "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#282c34",
+    "selectedColor": "#f6522f",
+    "list": [
+      {
+        "pagePath": "pages/hot/hot",
+        "text": "热搜",
+        "iconPath": "static/tab-icon/hot.png",
+        "selectedIconPath": "static/tab-icon/hot-active.png"
+      },
+      {
+        "pagePath": "pages/video/video",
+        "text": "热播",
+        "iconPath": "static/tab-icon/video.png",
+        "selectedIconPath": "static/tab-icon/video-active.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "用户",
+        "iconPath": "static/tab-icon/my.png",
+        "selectedIconPath": "static/tab-icon/my-active.png"
+      }
+    ]
   },
   "usingComponents": {}
 }

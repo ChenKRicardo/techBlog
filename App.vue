@@ -13,5 +13,7 @@
 </script>
 
 <style>
-	/*每个页面公共css */
+	html{
+		font-size: 62.5%;
+	}
 </style>
