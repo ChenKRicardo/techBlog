@@ -1,1 +1,1 @@
-<view class="hot-conatiner data-v-41251cbc"><image class="logo data-v-41251cbc" src="/static/images/logo.png" mode="aspectFit"></image></view>
+<view class="hot-conatiner data-v-41251cbc"><image class="logo data-v-41251cbc" src="{{a}}" mode="aspectFit"/><view class="search-box data-v-41251cbc"><my-search wx:if="{{b}}" class="data-v-41251cbc" u-i="41251cbc-0" bind:__l="__l" u-p="{{b}}"></my-search></view></view>

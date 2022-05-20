@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /* 颜色变量 */
 /* 行为相关颜色 */
 /* 文字基本颜色 */
@@ -19,4 +18,7 @@
   width: 100%;
   height: 8rem;
 }
-
+.hot-conatiner .search-box.data-v-41251cbc {
+  padding: 0 16px;
+  margin-bottom: 8px;
+}
